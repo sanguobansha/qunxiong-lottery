@@ -1,17 +1,73 @@
-# Brunch app
+# 群雄抽奖器
 
-This is HTML5 application, built with [Brunch](http://brunch.io).
+> 甘大师  08:36:05
 
-## Getting started
-* Install (if you don't have them):
-    * [Node.js](http://nodejs.org): `brew install node` on OS X
-    * [Brunch](http://brunch.io): `npm install -g brunch`
-    * [Bower](http://bower.io): `npm install -g bower`
-    * Brunch plugins and Bower dependencies: `npm install & bower install`.
-* Run:
-    * `brunch watch --server` — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history).
-    * `brunch build --production` — builds minified project for production
-* Learn:
-    * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
-    * Place static files you want to be copied from `app/assets/` to `public/`.
-    * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)
+> 每个君主玩家的势力备选项中，有且只有魏、蜀、吴中的一个（魏、蜀、吴的前后两个国家视为同一势力的支线）。
+
+> 甘大师  08:36:33
+
+> 简单来说 魏蜀吴必须分开 如果抽到魏蜀吴 再做一个前后的选项 然后进入角色id代入
+
+> 甘大师  08:36:55
+
+> 然后 3个选项里面 随机一个加入晋
+
+> 甘大师  08:37:29
+
+> 比如说 原来一个是魏 袁绍 刘表 一个是吴 公孙 刘焉 一个是蜀 马腾董卓
+
+> 甘大师  08:37:42
+
+> 那么新版的话 在上面三个里面随机一个再加入晋的选项
+
+> TIK-TOK://  08:39:04
+
+> 就是 4 个选项么 0.0
+
+> 甘大师  08:39:18
+
+> 嗯 随机一个获得4个选项
+
+> TIK-TOK://  08:40:16
+
+> 噢 0.0
+
+> 甘大师  08:40:34
+
+> 你需要初始角色名字嘛
+
+> TIK-TOK://  08:40:39
+
+> 要
+
+> 甘大师  08:40:52
+
+> 前魏初始人物：曹操，郭嘉，程昱，于禁，夏侯惇/夏侯渊，典韦，卞氏。
+
+> 后魏初始人物：曹丕，司马懿，贾逵，夏侯尚/郝昭/王双，曹休，曹节。
+
+> 前蜀初始人物：刘备，徐庶，庞统，关羽，张飞，赵云，糜氏。
+
+> 后蜀初始人物：刘备，诸葛亮，秦宓，魏延，关兴张苞，向宠，关银屏。
+
+> 前吴初始人物：孙坚，周瑜，程普，太史慈，甘宁/韩当，黄盖，小乔。
+
+> 后吴初始人物：孙权，陆逊，阚泽，潘璋/徐盛，朱桓，朱然，步练师。
+
+> 公孙初始人物：公孙瓒，公孙康，关靖，公孙范，张燕，严纲，蔡琰。
+
+> 袁绍初始人物：袁绍，沮授，许攸，颜良，麴义，蒋义渠，甄姬。
+
+> 刘表初始人物：刘表，蒯良，黄祖，蔡瑁张允，刘磐，吕公，蔡氏。
+
+> 董卓初始人物：董卓，李儒，皇甫嵩，吕布，华雄，李肃，貂蝉。
+
+> 马腾初始人物：马腾，成公英，韦康，马超，马休，马铁，王异。
+
+> 刘焉初始人物：刘焉，张松，王累，张任，吴懿，杨怀，祝融。
+
+> 晋国初始人物：司马师，荀勖，诸葛诞，文俶，胡奋/石苞，毋丘俭，夏侯徽。
+
+> 在野人物：蒋干，华佗，张角，陈珪，陈琳，王允，孔融，水镜，王朗，刘晔，左贤王，卢植。
+
+> Ex在野：孟获。

@@ -4,7 +4,8 @@
   "main": "public/app.js",
   "dependencies": {
     "react": "~0.13.3",
-    "react-router": "~0.13.3"
+    "react-router": "~0.13.3",
+    "material-design-lite": "~1.0.0"
   },
   "overrides": {
     "react-router": {
