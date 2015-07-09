@@ -1,5 +1,4 @@
 idBox = require("components/id_box")
-// React = require("React")
 
 document.addEventListener('DOMContentLoaded', function() {
   idBoxFactory = React.createFactory(idBox)
